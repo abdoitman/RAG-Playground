@@ -10,7 +10,7 @@ sentence-transformers>=2.2
 faiss-cpu>=1.7
 
 # Document processing
-pypdf>=3.0
+pymupdf
 python-docx>=0.8
 
 # Utilities
@@ -21,3 +21,6 @@ numpy>=1.24
 
 # Optional: For async support
 aiohttp>=3.8
+
+# Observability
+langfuse
